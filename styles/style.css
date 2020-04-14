@@ -71,27 +71,30 @@ li {
 }
 
 .ringroad-subtext {
-	margin: 64px 231px 0;
+	margin: 64px 231px;
 	font-family: Roboto Regular;
 	font-size: 20px;
 	letter-spacing: 1.5px;
 }
 
 .menu {
-	display: inline-block;
 	margin-top: 154px;
+	margin-left: 200px;
 	font-size: 20px;
 }
 
 .menu-1 {
-	margin-left: 231px;
+	display: inline-block;
+	margin-left: 30px;
 }
 
 .menu-2 {
+	display: inline-block;
 	margin-left: 37px;
 }
 
 .menu-3 {
+	display: inline-block;
 	margin-left: 60px;
 }
 
@@ -115,6 +118,7 @@ li {
 
 .recoms {
 	font-size: 13px;
+	font-weight: bold;
 }
 
 .recom-item {
