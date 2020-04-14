@@ -1,9 +1,16 @@
 * {
 	margin: 0;
+	min-height: 100%;
+	color: white;
 }
 
-body {
-	background: url(../images/RingRoadBG.png) 0 0/cover no-repeat;
+html, body {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/RingRoadBG.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 @font-face {
@@ -21,21 +28,15 @@ body {
 	src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
-.text {
-	color: white;
-}
-
-.more {
+.side-writing {
 	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
 	font-size: 20px;
-	position: absolute;
-	top: 685px;
+	float: left;
 	transform: rotate(-90deg);
 }
 
 a {
 	text-decoration: none;
-	color: white;
 }
 
 ul {
@@ -51,7 +52,7 @@ li {
 
 .nav-menu {
 	display: inline-block;
-	margin: 55px 181px 0;
+	margin: 55px 181px;
 	font-family: Montserrat Bold;
 	font-size: 20px;
 	font-weight: bold;
@@ -62,7 +63,7 @@ li {
 }
 
 .ringroad-text {
-	margin: 175px 231px 0;
+	margin: 175px 231px;
 	font-family: '../fonts/Montserrat/Montserrat-ExtraBold.ttf', sans-serif;
 	font-size: 102px;
 	font-weight: bold;
@@ -103,32 +104,27 @@ li {
 	font-family: Montserrat Light;
 }
 
-.recomendations {
-	position: absolute;
-	top: 227px;
-	left: 1050px;
-	padding: 71px 0 0 69px;
+.recommendations {
+	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+	float: right;
+	padding: 21px 0 0 69px;
 	font-size: 18px;
 	width: 380px;
-	height: 500px;
-    background-color:rgba(0,0,0,.7);
+  background-color:rgba(0,0,0,.7);
 }
 
 .recoms {
-	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
 	font-size: 13px;
 }
 
-.rec-title {
+.recom-item {
 	margin-top: 50px;
-	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+}
+
+.rec-title {
 	font-weight: bold;
 }
 
 .rec-descr {
 	font-family: Montserrat Light;
-}
-
-.planecrash {
-	margin-top: 70px;
 }
