@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+}
+
+body {
+	background: url(../images/RingRoadBG.png) 0 0/cover no-repeat;
+}
+
+@font-face {
+	font-family: Montserrat Bold;
+	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat Light;
+	src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+	font-family: Roboto Regular;
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.text {
+	color: white;
+}
+
+.more {
+	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 685px;
+	transform: rotate(-90deg);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding-left: 50px;
+}
+
+.nav-menu {
+	display: inline-block;
+	margin: 55px 181px 0;
+	font-family: Montserrat Bold;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.scrolldown {
+	margin-left: 25px;
+}
+
+.ringroad-text {
+	margin: 175px 231px 0;
+	font-family: '../fonts/Montserrat/Montserrat-ExtraBold.ttf', sans-serif;
+	font-size: 102px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+.ringroad-subtext {
+	margin: 64px 231px 0;
+	font-family: Roboto Regular;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+
+.menu {
+	display: inline-block;
+	margin-top: 154px;
+	font-size: 20px;
+}
+
+.menu-1 {
+	margin-left: 231px;
+}
+
+.menu-2 {
+	margin-left: 37px;
+}
+
+.menu-3 {
+	margin-left: 60px;
+}
+
+.title {
+	font-family: Montserrat Bold;
+	font-weight: bold;
+}
+
+.descr {
+	font-family: Montserrat Light;
+}
+
+.recomendations {
+	position: absolute;
+	top: 227px;
+	left: 1050px;
+	padding: 71px 0 0 69px;
+	font-size: 18px;
+	width: 380px;
+	height: 500px;
+    background-color:rgba(0,0,0,.7);
+}
+
+.recoms {
+	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+	font-size: 13px;
+}
+
+.rec-title {
+	margin-top: 50px;
+	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+	font-weight: bold;
+}
+
+.rec-descr {
+	font-family: Montserrat Light;
+}
+
+.planecrash {
+	margin-top: 70px;
+}
