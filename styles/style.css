@@ -1,6 +1,5 @@
 * {
 	margin: 0;
-	min-height: 100%;
 	color: white;
 }
 
@@ -109,20 +108,28 @@ li {
 
 .recommendations {
 	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
-	float: right;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
 	padding: 21px 0 0 69px;
 	font-size: 18px;
-	width: 380px;
+	width: 350px;
+	height: 950px;
   background-color:rgba(0,0,0,.7);
 }
 
 .recoms {
-	font-size: 13px;
+	padding-top: 50px;
 	font-weight: bold;
 }
 
 .recom-item {
-	margin-top: 50px;
+	margin: 100px 0px;
+	max-width: 100%;
+}
+
+.planecrash {
+	padding: 20px 0;
 }
 
 .rec-title {
