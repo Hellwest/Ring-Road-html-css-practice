@@ -13,8 +13,18 @@ html, body {
 }
 
 @font-face {
+	font-family: Montserrat ExtraBold;
+	src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
 	font-family: Montserrat Bold;
 	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat SemiBold;
+	src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
@@ -28,7 +38,7 @@ html, body {
 }
 
 .side-writing {
-	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+	font-family: Montserrat SemiBold;
 	font-size: 20px;
 	float: left;
 	transform: rotate(-90deg);
@@ -63,7 +73,7 @@ li {
 
 .ringroad-text {
 	margin: 175px 231px;
-	font-family: '../fonts/Montserrat/Montserrat-ExtraBold.ttf', sans-serif;
+	font-family: Montserrat ExtraBold;
 	font-size: 102px;
 	font-weight: bold;
 	letter-spacing: 10px;
@@ -109,7 +119,7 @@ li {
 .recommendations {
 	display: flex;
 	flex-direction: column;
-	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
+	font-family: Montserrat SemiBold;
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
@@ -131,7 +141,7 @@ li {
 }
 
 .planecrash {
-	padding: 20px 0;
+	padding-bottom: 20px;
 }
 
 .rec-title {
