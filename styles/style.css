@@ -107,6 +107,8 @@ li {
 }
 
 .recommendations {
+	display: flex;
+	flex-direction: column;
 	font-family: '../fonts/Montserrat/Montserrat-SemiBold.ttf', sans-serif;
 	position: fixed;
 	bottom: 0px;
