@@ -119,6 +119,7 @@ li {
 .recommendations {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
 	font-family: Montserrat SemiBold;
 	position: fixed;
 	bottom: 0px;
